@@ -11,7 +11,6 @@
 .third {
   width: 513px;
   height: 108px;
-  position: relative;
 }
 .background {
   background-color: rgba(70,70,70,0.5);
@@ -23,6 +22,7 @@
 }
 body {
   background-color: rgb(255, 255, 255);
+  min-width: 1070px;
   font-size: 14px;
   line-height: 22px;
   font-family: Arial;
@@ -51,11 +51,17 @@ body {
 .sixth-images {
   width: 757px;
   height: 325px;
+  margin-left: 20px;
 }
 .sixth-images img {
- /* width: 134px;*/
   height: 152px;
-  width: calc(20% - 20px);
+  width: calc(20% - 16px);
+  display: block;
+  float: left;
+}
+.sixth-images img:nth-child(1),
+.sixth-images img:nth-child(6) {
+  margin-left: 0;
 }
 #seventh {
   width: 184px;
@@ -83,7 +89,7 @@ body {
 }
 .seventh-eighth-ninth {
   display: flex;
-  margin: 18px 71px 25px 70px;
+  margin: -20px 71px 25px 70px;
   justify-content: center;
 }
 .eighth {
@@ -111,11 +117,7 @@ body {
 #text-info {
   width: 142px;
   height: 48px;
-  position: absolute;
-  top: 25px;
-  right: 22px;
-  bottom: 25px;
-  left: 349px;
+  float: right;
 }
 #text-info p {
   margin: 0;
@@ -123,8 +125,12 @@ body {
 #text-info a {
   color: rgb(255, 255, 255);
 }
+#text-info  p {
+  padding: 10px 0;
+}
 .tenth ol {
   column-count: 2;
+  list-style-type: none;
 }
 .eighth,
 .ninth {
