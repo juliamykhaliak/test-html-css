@@ -1,0 +1,132 @@
+.first-block {
+  width: 122px;
+  height: 108px;
+  margin-right: 24px;
+}
+.second-block {
+  width: 279px;
+  height: 108px;
+  margin-right: 24px;
+}
+.third {
+  width: 513px;
+  height: 108px;
+  position: relative;
+}
+.background {
+  background-color: rgba(70,70,70,0.5);
+}
+.header {
+  margin: 24px 71px 21px 70px;
+  display: flex;
+  justify-content: center;
+}
+body {
+  background-color: rgb(255, 255, 255);
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Arial;
+  color: rgb(255, 255, 255);
+}
+.fifth {
+  width: 757px;
+  height: 210px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.fifth p {
+  margin: 0;
+  padding: 10px 20px 0;
+}
+.fourth-sidebar {
+  width: 184px;
+  height: 335px;
+}
+.fourth-sidebar p {
+  padding: 10px 20px 0;
+}
+.title {
+  font-weight: bold;
+}
+.sixth-images {
+  width: 757px;
+  height: 325px;
+}
+.sixth-images img {
+ /* width: 134px;*/
+  height: 152px;
+  width: calc(20% - 20px);
+}
+#seventh {
+  width: 184px;
+  height: 134px;
+  align-self: flex-end;
+}
+#eight-nine {
+  width: 777px;
+  height: 200px;
+  display: flex;
+}
+.tenth,
+.eleventh {
+  width: 297px;
+  height: 180px;
+}
+#fourth-fifth-sixth {
+  display: flex;
+  margin: 21px 71px 21px 70px;
+  justify-content: center;
+}
+.sixth-images img {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.seventh-eighth-ninth {
+  display: flex;
+  margin: 18px 71px 25px 70px;
+  justify-content: center;
+}
+.eighth {
+  margin: 0 18px 0 20px;
+}
+.footer {
+  margin: 25px 71px 25px 70px;
+  display: flex;
+  justify-content: center;
+}
+.eleventh {
+  margin: 0 28px 0 28px;
+}
+.eleventh ul {
+  list-style-type: square;
+}
+.twelve,
+.thirteenth {
+  width: 308px;
+  height: 76px;
+}
+.twelve {
+  margin-bottom: 28px;
+}
+#text-info {
+  width: 142px;
+  height: 48px;
+  position: absolute;
+  top: 25px;
+  right: 22px;
+  bottom: 25px;
+  left: 349px;
+}
+#text-info p {
+  margin: 0;
+}
+#text-info a {
+  color: rgb(255, 255, 255);
+}
+.tenth ol {
+  column-count: 2;
+}
+.eighth,
+.ninth {
+  padding: 10px 20px 0;
+}
