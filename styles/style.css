@@ -57,7 +57,10 @@ body {
   background-color: #dcdcdc;
   color: #777777;
 }
-.fifth p {
+.description {
+  padding: 33px 0 0 20px;
+}
+.fifth .psd-file {
   margin: 0;
   padding: 10px 20px 0;
 }
