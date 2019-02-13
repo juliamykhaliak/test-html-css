@@ -1,21 +1,22 @@
 .first-block {
   width: 122px;
   height: 108px;
-  margin-right: 24px;
 }
 .logo-wrapper {
   min-width: 122px;
+  margin-right: 24px;
+  height: 108px;
 }
 .third-wrapper {
   min-width: 511px;
 }
 .second-block-wrapper {
   min-width: 278px;
+  margin-right: 24px;
 }
 .second-block {
   width: 279px;
   height: 108px;
-  margin-right: 24px;
 }
 .tenth-wrapper {
   min-width: 297px;
@@ -70,6 +71,9 @@ body {
   padding: 19px 32px 0 13px;
   overflow: auto;
 }
+.fourth-wrapper {
+  max-width: 174px;
+}
 .fourth-sidebar .about-site {
   list-style-type: none;
   padding: 0;
@@ -104,6 +108,9 @@ body {
   width: 297px;
   height: 180px;
   overflow: auto;
+}
+.tenth {
+  overflow-x: hidden;
 }
 #fourth-fifth-sixth {
   display: flex;
@@ -170,5 +177,8 @@ body {
 .eighth,
 .ninth {
   padding: 10px 20px 0;
+  flex: 50%;
+  background-color: #dcdcdc;
+  color: #777777;
 }
 
