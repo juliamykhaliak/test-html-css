@@ -6,6 +6,12 @@
 .logo-wrapper {
   min-width: 122px;
 }
+.third-wrapper {
+  min-width: 511px;
+}
+.second-block-wrapper {
+  min-width: 278px;
+}
 .second-block {
   width: 279px;
   height: 108px;
@@ -74,6 +80,7 @@ body {
   margin-right: 0;
   display: flex;
   flex-wrap: wrap;
+  width: 782px;
 }
 .sixth-images img {
   width: calc(20% - 20px);
