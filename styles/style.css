@@ -66,13 +66,13 @@ body {
   padding: 10px 20px 0;
 }
 .fourth-sidebar {
-  width: 184px;
+  max-width: 174px;
   height: 335px;
   padding: 19px 32px 0 13px;
   overflow: auto;
 }
 .fourth-wrapper {
-  max-width: 174px;
+  min-width: 174px;
 }
 .fourth-sidebar .about-site {
   list-style-type: none;
