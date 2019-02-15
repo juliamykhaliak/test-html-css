@@ -41,7 +41,6 @@ body {
   line-height: 22px;
   font-family: Arial;
   color: rgb(255, 255, 255);
-  min-width: 1000px;
 }
 .bold {
   font-weight: bold;
@@ -182,4 +181,119 @@ body {
   background-color: #dcdcdc;
   color: #777777;
 }
+@media all and (max-width: 801px) {
+  .main {
+    min-width: 0;
+    width: 96%;
+    padding: 0 1%;
+  }
+  body {
+    margin: 0;
+  }
+  .header .logo-wrapper {
+    max-width: 42%;
+    min-width: 42%;
+  }
+  .second-block-wrapper {
+    margin: 0;
+    max-width: 100%;
+    min-width: 96%;
+    padding: 7px 0;
+  }
+  .second-block {
+    width: 100%;
+  }
+  .third-wrapper {
+    max-width: 100%;
+    min-width: 96%;
+  }
+  .third {
+    width: 100%;
+  }
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 0 21px 0;
+  }
+  .logo-wrapper {
+    min-width: 12%;
+    margin: 0;
+    padding-top: 7px;
+  }
+  #fourth-fifth-sixth {
+    flex-direction: column;
+  }
+  .fourth-sidebar {
+    max-width: 100%;
+    padding: 19px 32px 19px 13px;
+    height: auto;
+  }
+  .title {
+    text-align: center;
+  }
+  .about-site {
+    text-align: center;
+  }
+  .fourth-wrapper {
+    min-width: unset;
+    margin-bottom: 7px;
+  }
+  .fifth {
+    margin: 0;
+    height: auto;
+  }
+  .sixth-images {
+    width: 100%;
+    justify-content: center;
+  }
+  .sixth-images img {
+    margin-left: 7px;
+    margin-bottom: 7px;
+    width: 134px;
+  }
+  .seventh-eighth-ninth {
+    flex-direction: column;
+  }
+  #eight-nine {
+    flex-direction: column;
+    width: 100%;
+    height: unset;
+  }
+  .eighth {
+    margin: 7px 0;
+  }
+  #seventh {
+    align-self: center;
+    width: 100%;
+  }
+  .empty {
+    display: none;
+  }
+  .footer {
+    position: static;
+    flex-direction: column;
+  }
+  .tenth,
+  .eleventh {
+    width: 100%;
+    height: auto;
+  }
+  .eleventh {
+    margin: 7px 0;
+  }
+  .twelve {
+    margin-bottom: 7px;
+  }
+  .twelve,
+  .thirteenth {
+    width: 100%;
+  }
+  .footer {
+    margin-bottom: 0;
+  }
+
+}
+
 
